@@ -11,6 +11,6 @@ namespace MobileAPI.Data
         }
 
         // When we run entity core migrations, Below property will create tables in database.
-        public DbSet<MobileModel> MobileT { get; set; }
+        public DbSet<MobileModel> Mobile { get; set; }
     }
 }
